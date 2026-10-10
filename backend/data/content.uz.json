@@ -1,0 +1,239 @@
+{
+  "stats": [
+    { "value": 2400, "suffix": "+", "label": "mijoz biz bilan shugʻullanadi" },
+    { "value": 18, "suffix": "", "label": "sertifikatlangan murabbiy" },
+    { "value": 42, "suffix": "", "label": "haftasiga guruh mashgʻuloti" },
+    { "value": 96, "suffix": "%", "label": "abonementni uzaytiradi" }
+  ],
+  "programs": [
+    {
+      "id": "strength",
+      "title": "Kuch mashgʻulotlari",
+      "tag": "Kuch",
+      "level": "Har qanday daraja",
+      "duration": "60 daq",
+      "image": "/images/program-strength.jpg",
+      "text": "Erkin ogʻirliklar, asosiy mashqlar texnikasi va murabbiy nazoratida yuklamani bosqichma-bosqich oshirish."
+    },
+    {
+      "id": "functional",
+      "title": "Funksional mashgʻulot",
+      "tag": "Chidamlilik",
+      "level": "Oʻrta",
+      "duration": "50 daq",
+      "image": "/images/program-functional.jpg",
+      "text": "Aylana mashgʻulotlar, oʻz vazni bilan ishlash, girya va TRX ilmoqlari."
+    },
+    {
+      "id": "boxing",
+      "title": "Boks va yakkakurash",
+      "tag": "Tezlik",
+      "level": "Noldan",
+      "duration": "75 daq",
+      "image": "/images/program-boxing.jpg",
+      "text": "Zarba texnikasi, qop va lapalarda ishlash, jangchining umumiy jismoniy tayyorgarligi."
+    },
+    {
+      "id": "yoga",
+      "title": "Yoga va choʻzilish",
+      "tag": "Egiluvchanlik",
+      "level": "Har qanday daraja",
+      "duration": "60 daq",
+      "image": "/images/program-yoga.jpg",
+      "text": "Boʻgʻimlar harakatchanligi, nafas mashqlari va yuklamadan keyin tiklanish."
+    },
+    {
+      "id": "cardio",
+      "title": "Kardio va HIIT",
+      "tag": "Yogʻ yoqish",
+      "level": "Oʻrta",
+      "duration": "45 daq",
+      "image": "/images/program-cardio.jpg",
+      "text": "Vazn tashlash va yurak salomatligi uchun yuqori intensivlikdagi interval mashgʻulotlar."
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutritsiologiya",
+      "tag": "Ovqatlanish",
+      "level": "Maslahat",
+      "duration": "40 daq",
+      "image": "/images/program-nutrition.jpg",
+      "text": "Maqsad, tahlillar va turmush tarzini hisobga olgan holda dietologdan shaxsiy ovqatlanish rejasi."
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Aziz Rahimov",
+      "role": "Kuch mashgʻulotlari",
+      "experience": "12 yillik tajriba",
+      "image": "/images/trainer-1.jpg",
+      "badges": ["Pauerlifting boʻyicha sport ustasi", "Reabilitatsiya"]
+    },
+    {
+      "id": 2,
+      "name": "Madina Yusupova",
+      "role": "Yoga va choʻzilish",
+      "experience": "8 yillik tajriba",
+      "image": "/images/trainer-2.jpg",
+      "badges": ["Yoga Alliance RYT-500", "Pilates"]
+    },
+    {
+      "id": 3,
+      "name": "Timur Karimov",
+      "role": "Boks",
+      "experience": "10 yillik tajriba",
+      "image": "/images/trainer-3.jpg",
+      "badges": ["Boks boʻyicha sport ustaligiga nomzod", "Bolalar guruhlari"]
+    },
+    {
+      "id": 4,
+      "name": "Anna Kim",
+      "role": "Nutritsiolog",
+      "experience": "7 yillik tajriba",
+      "image": "/images/trainer-4.jpg",
+      "badges": ["Shifokor-dietolog", "Sport ovqatlanishi"]
+    }
+  ],
+  "schedule": {
+    "Пн": [
+      { "time": "07:00", "title": "Kardio va HIIT", "trainer": "Timur Karimov", "room": "2-zal" },
+      { "time": "09:00", "title": "Yoga va choʻzilish", "trainer": "Madina Yusupova", "room": "Studiya" },
+      { "time": "18:30", "title": "Kuch mashgʻulotlari", "trainer": "Aziz Rahimov", "room": "1-zal" },
+      { "time": "20:00", "title": "Boks va yakkakurash", "trainer": "Timur Karimov", "room": "Ring" }
+    ],
+    "Вт": [
+      { "time": "08:00", "title": "Funksional mashgʻulot", "trainer": "Aziz Rahimov", "room": "2-zal" },
+      { "time": "12:00", "title": "Yoga va choʻzilish", "trainer": "Madina Yusupova", "room": "Studiya" },
+      { "time": "19:00", "title": "Kardio va HIIT", "trainer": "Timur Karimov", "room": "2-zal" }
+    ],
+    "Ср": [
+      { "time": "07:00", "title": "Kuch mashgʻulotlari", "trainer": "Aziz Rahimov", "room": "1-zal" },
+      { "time": "10:00", "title": "Nutritsiologiya", "trainer": "Anna Kim", "room": "Kabinet" },
+      { "time": "18:30", "title": "Boks va yakkakurash", "trainer": "Timur Karimov", "room": "Ring" },
+      { "time": "20:00", "title": "Yoga va choʻzilish", "trainer": "Madina Yusupova", "room": "Studiya" }
+    ],
+    "Чт": [
+      { "time": "08:00", "title": "Kardio va HIIT", "trainer": "Timur Karimov", "room": "2-zal" },
+      { "time": "18:00", "title": "Funksional mashgʻulot", "trainer": "Aziz Rahimov", "room": "2-zal" },
+      { "time": "19:30", "title": "Kuch mashgʻulotlari", "trainer": "Aziz Rahimov", "room": "1-zal" }
+    ],
+    "Пт": [
+      { "time": "07:00", "title": "Yoga va choʻzilish", "trainer": "Madina Yusupova", "room": "Studiya" },
+      { "time": "12:00", "title": "Nutritsiologiya", "trainer": "Anna Kim", "room": "Kabinet" },
+      { "time": "19:00", "title": "Boks va yakkakurash", "trainer": "Timur Karimov", "room": "Ring" }
+    ],
+    "Сб": [
+      { "time": "10:00", "title": "Funksional mashgʻulot", "trainer": "Aziz Rahimov", "room": "2-zal" },
+      { "time": "12:00", "title": "Kardio va HIIT", "trainer": "Timur Karimov", "room": "2-zal" },
+      { "time": "16:00", "title": "Yoga va choʻzilish", "trainer": "Madina Yusupova", "room": "Studiya" }
+    ],
+    "Вс": [
+      { "time": "11:00", "title": "Yoga va choʻzilish", "trainer": "Madina Yusupova", "room": "Studiya" },
+      { "time": "13:00", "title": "Kuch mashgʻulotlari", "trainer": "Aziz Rahimov", "room": "1-zal" }
+    ]
+  },
+  "plans": [
+    {
+      "id": "start",
+      "name": "Start",
+      "price": 350000,
+      "period": "oy",
+      "featured": false,
+      "features": [
+        "Trenajyor zali 07:00 dan 17:00 gacha",
+        "Murabbiy bilan kirish mashgʻuloti",
+        "Kiyinish xonasi va dush",
+        "1 marta fitnes-test"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "price": 590000,
+      "period": "oy",
+      "featured": true,
+      "features": [
+        "Cheksiz kirish 06:00 — 23:00",
+        "Barcha guruh dasturlari",
+        "4 ta shaxsiy mashgʻulot",
+        "Nutritsiolog maslahati",
+        "14 kungacha muzlatish"
+      ]
+    },
+    {
+      "id": "elite",
+      "name": "Elit",
+      "price": 990000,
+      "period": "oy",
+      "featured": false,
+      "features": [
+        "«Pro» tarifidagi hamma narsa",
+        "12 ta shaxsiy mashgʻulot",
+        "Shaxsiy ovqatlanish rejasi",
+        "Shaxsiy shkafcha va sochiqlar",
+        "Doʻst uchun mehmon tashriflari"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Shahzod T.",
+      "result": "5 oyda −14 kg",
+      "text": "Belim ogʻrigan va ortiqcha vazn bilan kelgandim. Murabbiy dasturni shunday tuzdiki, bel endi bezovta qilmaydi, vazn esa qattiq parhezlarsiz ketdi.",
+      "image": "/images/review-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dilnoza A.",
+      "result": "Birinchi yarim marafon",
+      "text": "Noldan boshlagandim, yarim yildan keyin 21 km yugurdim. Bu yerda tiklanishga toʻgʻri yondashishadi — butun vaqt davomida birorta ham jarohat boʻlmadi.",
+      "image": "/images/review-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rustam N.",
+      "result": "+9 kg mushak massasi",
+      "text": "Aziz bilan kuch mashgʻulotlari va Annaning ovqatlanish rejasi men uch yil davomida oʻzim erisha olmagan natijani berdi. Aniq, ilmiy, ortiqcha gapsiz.",
+      "image": "/images/review-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kamila S.",
+      "result": "Tugʻruqdan keyin tiklanish",
+      "text": "Yoga va yumshoq funksional mashgʻulotlar shaklim va energiyamni qaytardi. Muhit xotirjam, hech kim shoshirmaydi va bosim oʻtkazmaydi.",
+      "image": "/images/review-4.jpg"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Sinov mashgʻulotiga kelsa boʻladimi?",
+      "a": "Ha. Birinchi mashgʻulot bepul: murabbiy fitnes-test oʻtkazadi, zalni koʻrsatadi va dastur tanlaydi. Ariza qoldiring — qoʻngʻiroq qilib vaqtni kelishamiz."
+    },
+    {
+      "q": "Men hech qachon sport bilan shugʻullanmaganman. Nimadan boshlay?",
+      "a": "Kirish mashgʻuloti va testdan. Dasturlarimizning aksariyati har qanday tayyorgarlik darajasiga moʻljallangan — yuklama individual tanlanadi."
+    },
+    {
+      "q": "Abonementni muzlatsa boʻladimi?",
+      "a": "«Pro» va «Elit» tariflarida oyiga 14 kungacha muzlatish mumkin — masalan, xizmat safari yoki kasallik vaqtida."
+    },
+    {
+      "q": "Qanday toʻlov usullarini qabul qilasiz?",
+      "a": "Naqd pul, Uzcard, Humo, Visa, Mastercard kartalari, shuningdek Click va Payme orqali. Yuridik shaxslar uchun — shartnoma boʻyicha oʻtkazma."
+    },
+    {
+      "q": "Avtoturargoh bormi?",
+      "a": "Ha, klub yonida mijozlar uchun bepul qoʻriqlanadigan avtoturargoh bor."
+    }
+  ],
+  "contacts": {
+    "address": "Toshkent sh., Amir Temur koʻchasi, 1",
+    "phone": "+998 71 200 00 00",
+    "email": "info@vitalis.uz",
+    "hours": "Har kuni 06:00 — 23:00",
+    "telegram": "https://t.me/vitalis_uz",
+    "instagram": "https://instagram.com/vitalis.uz"
+  }
+}

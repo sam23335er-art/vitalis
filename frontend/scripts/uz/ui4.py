@@ -1,0 +1,23 @@
+# Узбекский перевод интерфейса (латиница), часть 4: регистрация, админка, разное
+UI4 = {
+"Введите e-mail в формате name@mail.uz": "E-mailni name@mail.uz formatida kiriting",
+"Не простой (не 12345678, не qwertyui)": "Oddiy emas (12345678 yoki qwertyui emas)",
+"Войти с этим e-mail": "Shu e-mail bilan kirish",
+"Зарегистрироваться с этим e-mail": "Shu e-mail bilan roʻyxatdan oʻtish",
+"Забыли пароль?": "Parolni unutdingizmi?",
+"Напишите администратору клуба (Telegram или телефон на главной) — он сбросит пароль и выдаст временный. Потом смените его в профиле.": "Klub administratoriga yozing (Telegram yoki bosh sahifadagi telefon) — u parolni tiklab, vaqtinchalik parol beradi. Keyin uni profilda oʻzgartiring.",
+"Права администратора выданы": "Administrator huquqi berildi",
+"Права администратора сняты": "Administrator huquqi olib tashlandi",
+"Сбросить пароль?": "Parolni tiklaysizmi?",
+"Сбросить пароль": "Parolni tiklash",
+"Снять админа": "Adminlikni olish",
+"Сделать админом": "Admin qilish",
+"Временный пароль": "Vaqtinchalik parol",
+"Передайте пользователю {name} ({email}) этот пароль. После входа пусть сменит его в профиле.": "Bu parolni {name} ({email}) foydalanuvchisiga bering. Kirgandan keyin uni profilda oʻzgartirsin.",
+"Скопировано": "Nusxalandi",
+"Точно удалить?": "Rostdan oʻchirasizmi?",
+"Язык / Til": "Til / Язык",
+"Кабинет": "Kabinet",
+"Мои анализы: ": "Tahlillarim: ",
+"Пробная тренировка": "Sinov mashgʻuloti",
+}
