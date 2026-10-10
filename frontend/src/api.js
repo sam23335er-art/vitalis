@@ -3,7 +3,7 @@ import fallbackContent from './data/content.json';
 import fallbackContentUz from './data/content.uz.json';
 import { getLang, t } from './i18n.jsx';
 
-const BASE = import.meta.env.VITE_API_URL || '';
+const BASE = "https://vitalis-f5oem4t2w-sam23335er-8381s-projects.vercel.app/" || '';
 const TOKEN_KEY = 'vitalis_token';
 
 let token = null;
